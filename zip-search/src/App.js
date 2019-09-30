@@ -8,7 +8,13 @@ function City(props) {
 }
 
 function ZipSearchField(props) {
-  return (<div></div>);
+  return (
+  	<form>
+  		<label>
+  			Zip Code: 
+  			<input type='text' name='zipcode' required />
+  		</label>
+  	</form>);
 }
 
 
